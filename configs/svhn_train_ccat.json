@@ -1,0 +1,23 @@
+{
+  "_comment": "===== MODEL CONFIGURATION =====",
+  "model_arch": "resnet20",
+
+  "_comment": "===== DATASET CONFIGURATION =====",
+  "dataset": "svhn",
+  "batch_size": 100,
+
+  "_comment": "===== TRAINING CONFIGURATION =====",
+  "lr": 0.1,
+  "optimizer_name": "SGD",
+  "fraction": 0.5,
+  "gamma": 10,
+  "print_freq": 50,
+  "max_batches": 10,
+  "nepoch": 200,
+  "checkpoint_freq": 50, 
+
+  "_comment": "=====ADVERSARIAL EXAMPLES CONFIGURATION=====",
+  "epsilon": 8.0,
+  "attack_base_lr": 0.005, 
+  "max_iterations": 40
+}

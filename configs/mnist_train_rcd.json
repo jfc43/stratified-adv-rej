@@ -1,0 +1,26 @@
+{
+    "_comment": "===== MODEL CONFIGURATION =====",
+    "model_arch": "lenet",
+  
+    "_comment": "===== DATASET CONFIGURATION =====",
+    "dataset": "mnist",
+    "batch_size": 128,
+  
+    "_comment": "===== TRAINING CONFIGURATION =====",
+    "lr": 0.1,
+    "optimizer_name": "SGD",
+    "fraction": 0.5,
+    "lamb_1": 1.0, 
+    "lamb_2": 1.0, 
+    "print_freq": 50,
+    "max_batches": 10,
+    "nepoch": 100,
+    "checkpoint_freq": 50, 
+    
+    "_comment": "=====ADVERSARIAL EXAMPLES CONFIGURATION=====",
+    "epsilon": 0.3,
+    "adv_fraction": 0.5,
+    "eps_iter": 0.01,
+    "nb_iter": 40
+  }
+  

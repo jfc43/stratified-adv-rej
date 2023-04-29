@@ -1,0 +1,45 @@
+{
+    "_comment": "===== MODEL CONFIGURATION =====",
+    "model_arch": "lenet",
+  
+    "_comment": "===== DATASET CONFIGURATION =====",
+    "dataset": "mnist",
+    "batch_size": 128,
+  
+    "_comment": "===== TRAINING CONFIGURATION =====",
+    "lr": 0.1,
+    "optimizer_name": "SGD",
+    "fraction": 0.5,
+    "gamma": 1.0, 
+    "beta": 1.0, 
+    "print_freq": 50,
+    "max_batches": 10,
+    "nepoch": 100,
+    "checkpoint_freq": 50, 
+    "conf_approx": "network", 
+    "temperature": 0.00001,
+
+    "_comment": "Configuration for an increasing exponential schedule for the hyper-parameter gamma",
+    "gamma_schedule": false,
+    "gamma_init": 0.00001,
+    "_comment": "Epoch at which gamma should reach its final (maximum) value specified by the key 'gamma'",
+    "nepoch_max_gamma": 50,
+
+    "_comment": "Configuration for a decreasing exponential schedule for epsilon_0",
+    "eps0_schedule": false,
+    "eps0_init": 0.3,
+    "_comment": "Epoch at which epsilon_0 should reach its final (minimum) value specified by the key 'epsilon_0'",
+    "nepoch_min_eps0": 50,
+    
+    "_comment": "=====ADVERSARIAL EXAMPLES CONFIGURATION=====",
+    "epsilon": 0.3,
+    "epsilon_0": 0.05, 
+    "adv_fraction": 0.5,
+    "outer_eps_iter": 0.01,
+    "inner_eps_iter": 0.01,
+    "multitargeted": false,
+    "nb_iter": 40,
+    "momentum": 0.0,
+    "trade_beta": 1.0
+  }
+  
