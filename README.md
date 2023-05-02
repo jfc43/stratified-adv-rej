@@ -1,5 +1,10 @@
 # Stratified Adversarial Robustness with Rejection
-This repository is the official implementation of Stratified Adversarial Robustness with Rejection. 
+This repository is the official implementation of the ICML 2023 paper: `Stratified Adversarial Robustness with Rejection`
+
+<!--- 
+Openreview link:
+Arxiv link:
+---> 
 
 ## Requirements
 * It is tested under Ubuntu Linux 16.04.1 and Python 3.6 environment, and requries some packages to be installed: [PyTorch](https://pytorch.org/), [numpy](http://www.numpy.org/), [scipy](https://scipy.org/), [opencv-python](https://pypi.org/project/opencv-python/) and [scikit-image](https://scikit-image.org/). 
@@ -102,3 +107,18 @@ You can run the script `run_all_evaluation.sh` to evaluate the robustness curve 
 
 ## Acknowledgements
 Part of this code is inspired by [CCAT](https://github.com/davidstutz/confidence-calibrated-adversarial-training) and [Rectified-Rejection](https://github.com/P2333/Rectified-Rejection). 
+
+## Citation
+Please cite our work if you use this codebase:
+```
+@inproceedings{
+chen2023stratified,
+title={Stratified Adversarial Robustness with Rejection},
+author={Jiefeng Chen and Jayaram Raghuram and Jihye Choi and Xi Wu and Yingyu Liang and Somesh Jha},
+booktitle={International Conference on Machine Learning},
+year={2023}
+}
+```
+
+## License
+Please refer to the [LICENSE](https://github.com/jfc43/stratified-adv-rej/blob/main/LICENSE).
