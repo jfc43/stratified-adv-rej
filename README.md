@@ -1,9 +1,9 @@
 # Stratified Adversarial Robustness with Rejection
-This repository is the official implementation of the ICML 2023 paper: `Stratified Adversarial Robustness with Rejection`
+This repository is the official implementation of the ICML 2023 paper: [Stratified Adversarial Robustness with Rejection](https://arxiv.org/abs/2305.01139).
 
 <!--- 
 Openreview link:
-Arxiv link:
+Arxiv link: https://arxiv.org/abs/2305.01139
 ---> 
 
 ## Requirements
